@@ -1,0 +1,76 @@
+
+Input1.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+
+alienWalk
+  rotate: false
+  xy: 2, 2
+  size: 210, 24
+  orig: 210, 24
+  offset: 0, 0
+  index: -1
+
+playerStand
+  rotate: false
+  xy: 2, 28
+  size: 80, 32
+  orig: 80, 32
+  offset: 0, 0
+  index: -1
+
+playerWalk
+  rotate: false
+  xy: 2, 62
+  size: 64, 32
+  orig: 64, 32
+  offset: 0, 0
+  index: -1
+
+alienJump
+  rotate: false
+  xy: 2, 96
+  size: 48, 24
+  orig: 48, 24
+  offset: 0, 0
+  index: -1
+alienCeiling
+  rotate: false
+  xy: 84, 28
+  size: 48, 24
+  orig: 48, 24
+  offset: 0, 0
+  index: -1
+
+alienStand
+  rotate: false
+  xy: 84, 54
+  size: 42, 24
+  orig: 42, 24
+  offset: 0, 0
+  index: -1
+
+alienLadder
+  rotate: false
+  xy: 84, 80
+  size: 40, 32
+  orig: 40, 32
+  offset: 0, 0
+  index: -1
+
+alienLadder2
+  rotate: false
+  xy: 134, 28
+  size: 26, 40
+  orig: 26, 40
+  offset: 0, 0
+  index: -1
+
+playerHide
+  rotate: false
+  xy: 134, 70
+  size: 16, 32
+  orig: 16, 32
+  offset: 0, 0
+  index: -1
