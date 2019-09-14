@@ -63,7 +63,14 @@
         * 적이 가까울 수록 경고음이 빨리 재생됨
         </li>
     </ol>
-    <img src="Image/path2.gif" width="50%"><br><br> 
+  
+  <hr width="100%" color = "black">
+    <ol>
+      <li>
+        <h4><b>알고리즘</b><h4>
+        - 적 AI에 A* 알고리즘 입력
+      </li>
+    </ol>
   </div>
-  <h2>짧은 작동 영상</h2>
+  <h2>짧은 영상</h2>
 </body>
