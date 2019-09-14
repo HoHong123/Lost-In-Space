@@ -34,6 +34,25 @@
           - 게임 플레이 씬<br>
           <img src="Image/path2.gif" width="50%"><br><br> 
           </ul>
+          <ul>
+            <b>게임 승리/오버</b><br>
+            - 적에게 잡히거나 생존 필수 요소를 찾지 못하면 게임 오버 화면/사운드 출력<br>
+            <img src="Image/gameover1.jpg" width="50%"><img src="Image/gameover2.jpg" width="50%">
+            <br>
+            - 승리 조건을 만족하면 나오는 화면<br>
+            <img src="Image/victory.png" width="50%">
+            <br><br> 
+          </ul>
+       </li>
+       <br>
+      <li>
+          <ul><b>게임 규칙</b><br>
+          - <br>
+          <img src="Image/title.jpg" width="50%"><br><br> 
+            
+          - 게임 플레이 씬<br>
+          <img src="Image/path2.gif" width="50%"><br><br> 
+          </ul>
           <ul>Tiled</ul>
         </li>
       <br>
