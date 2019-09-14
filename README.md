@@ -28,11 +28,11 @@
       <li>
           <ul><b>타이틀 씬</b><br>
           - 이미지 출력, BGM 루프, 터치 감지<br>
-          <img src="Images/title.jpg" width="50%"><img src="Images/메뉴.jpg" width="50%"><br><br> 
+          <img src="Image/title.jpg" width="50%"><img src="Images/메뉴.jpg" width="50%"><br><br> 
           </ul>
           <ul><b>게임 씬</b><br>
           - 게임 플레이 씬<br>
-          <img src="Images/path2.gif" width="50%"><img src="Images/메뉴.jpg" width="50%"><br><br> 
+          <img src="Image/path2.gif" width="50%"><img src="Images/메뉴.jpg" width="50%"><br><br> 
           </ul>
           <ul>Tiled</ul>
         </li>
