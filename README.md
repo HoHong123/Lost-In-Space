@@ -47,15 +47,14 @@
           </ul>
        </li>
        <br>
-      <li>
-  <hr width="10%" color = "black">
-            <b>게임 규칙</b><br>
-            - <br>            
-            - 게임 플레이 씬<br>
-            <img src="Image/path2.gif" width="50%"><br><br> 
-        </li>
-      <br>
     </ol>
+  </div>
+  
+  <div><hr width="100%" color = "black">
+    <b>게임 규칙</b><br>
+    - <br>            
+    - 게임 플레이 씬<br>
+    <img src="Image/path2.gif" width="50%"><br><br> 
   </div>
   <h2>짧은 작동 영상</h2>
 </body>
