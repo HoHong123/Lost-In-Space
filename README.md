@@ -1,5 +1,5 @@
 # Lost-In-Space
-*****************************************************************************************************<h1>- 2D Horror Survive SideScroller using A* Algorithm -</h1>
+<h2>- 2D Horror Survive SideScroller using A* Algorithm -</h2>
 <article>
 <b>#Project Member :</b> 1 Developer<br>
 <b>#Language :</b> Java<br>
