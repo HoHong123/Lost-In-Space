@@ -50,9 +50,7 @@
   </ol>
   <h2>짧은 영상</h2>
   - AI이동 영상<br>
-    <video src="Image/1.mp4" controls="controls">
-    AI 이동 영상
-    </video>
+  
   </div>
   
   <div><hr width="100%" color = "black">
