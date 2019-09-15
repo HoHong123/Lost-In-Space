@@ -152,11 +152,9 @@
   <ol>
     <li>버퍼 오버플로</li>
     - 길 찾기 연산 중 open과 close리스트를 초기화하지 않아 메모리에 지솢거으로 새로 생성하여 발생한 오류<br>
-    <img src="Image/path2.gif" width="50%">
+    <img src="Image/200.PNG" width="60%"><br>
     - 모든 알고리즘 및 스크립트에 변수를 사용 후 초기화 하도록 변경<br>
-    <li></li>
-    <li></li>
-    <li></li>
+    <img src="Image/80.PNG" width="60%"><br>
   </ol>
   </div>
 </body>
