@@ -50,7 +50,9 @@
   </ol>
   <h2>짧은 영상</h2>
   - AI이동 영상<br>
-  
+  https://youtu.be/4ufDuvQo19w<br>
+  - 게임 플레이 영상<br>
+  https://youtu.be/_ta-cA5Z6h4<br>
   </div>
   
   <div><hr width="100%" color = "black">
@@ -143,5 +145,18 @@
         </ol>
       </li>
     </ol>
+  </div>
+  
+  <div>
+  <h2>오류 및 시행착오</h2>
+  <ol>
+    <li>버퍼 오버플로</li>
+    - 길 찾기 연산 중 open과 close리스트를 초기화하지 않아 메모리에 지솢거으로 새로 생성하여 발생한 오류<br>
+    <img src="Image/path2.gif" width="50%">
+    - 모든 알고리즘 및 스크립트에 변수를 사용 후 초기화 하도록 변경<br>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
   </div>
 </body>
