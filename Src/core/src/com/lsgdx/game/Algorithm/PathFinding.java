@@ -10,21 +10,23 @@ public class PathFinding {
     H : heuristic estimated distance from the current to end nodes
      */
 
+    /*
+    현 위치 노드에서 부터 4방향(좌/우/상/하)에 이동가능한 블록을 조사
+    
+    */
     public static void GeneratePath(Node starNode, Node endNode, Array<Node> array, Array<Node> open, Array<Node> close, HeuristicCalculation heuristicCalculation){
-        array.clear();
-        open.clear();
-        close.clear();
+        array.clear(); // 최종 경로 리스트
+        open.clear();  // 연산이 안된 열린 블록 리스트
+        close.clear(); // 연산이 되어 닫힌 블록 리스트
 
         Node current = starNode;
-        // 시작점은 첫 노드이기에 g 비용을 0으로 초기화
-        current.g = 0; // 0
-        // h cost & f cost 초기화
-        current.f = current.h = heuristicCalculation.estimate(current, endNode);
+        current.g = 0; // 시작점은 첫 노드이기에 g 비용을 0으로 초기화
+        current.f = current.h = heuristicCalculation.estimate(current, endNode); // h cost & f cost 초기화
 
-        open.add(current);
+        open.add(current); // 연산이 가능한 현재 노드 입력
 
         // 해당 노드의 연결된 모든 노드를 검사하는 loop
-        while(!open.isEmpty()){
+        while(!open.isEmpty()) {
             // 열린 목록 중 최소 비용의 노드를 찾는다
             // loop 노드가 현재노드보다 f값이 낮으면 입력
             Node lowest = open.get(0);
@@ -41,11 +43,11 @@ public class PathFinding {
                 return;
             }
 
-            // f 비용이 최소인 노드를 선택하여 open에서 제거, 이미 확인한 close에 입력
+            // f 비용이 최소인 노드를 선택하여 open에서 제거, close에 입력
             open.removeValue(current, true);
             close.add(current);
 
-            // 최소 비용으로 선택한 노드의 인접 노드 확인
+            // 최소 비용으로 선택된 노드의 인접 노드 확인
             for(Connection<Node> nodes : current.getConnections()) {
                 if(nodes.getToNode().type != Node.Type.BLOCK){ // 연결된 노드가 Block이 아닌 경우에만 실행
                     // 해당 노드가 이미 닫혀있는 노드면 무시
@@ -70,6 +72,18 @@ public class PathFinding {
                     nodes.getToNode().h = heuristicCalculation.estimate(nodes.getToNode(), endNode);
                     nodes.getToNode().f = nodes.getToNode().g + nodes.getToNode().h;
                     nodes.getToNode().parent = current;
+                    /*
+                                      G cost
+                              [인접][시작][현재][인접]
+                    시작기준 :   1     0    1     2
+                    현재기준 :   2     1    0     1
+                    
+                        [도착][인접][시작][현재][인접]
+                    - 도착점에 왼편에 있으면 기록하지 않음
+                    
+                              [인접][시작][현재][인접][도착]
+                    - 도착점이 오른편에 있으면 기록함
+                    */
                 }
             }
         }
