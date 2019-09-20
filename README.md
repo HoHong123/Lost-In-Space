@@ -90,6 +90,7 @@
           - f, g, h 값 저장 및 초기화<br>
           - 부모 노드 저장<br>
           - 주변 노드와 연결시켜 주는 리스트 저장<br>
+          syntax: [코드로 가기 : Node](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/Node.java)<br>
            [코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/Node.java)
         <h5>노드 커넥터(ConnectionNode.java)</h5>
           - 연산이 시작되는 노드와 다음 노드를 연결 시키는 클래스<br>
