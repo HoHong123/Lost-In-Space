@@ -114,7 +114,13 @@
           - 스프라이트 변경 조절<br>
           <h6>1. 이동(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI_Run.java">EnemyAI_Run.java</a>)</h6><br>
           - Pathfinding으로 찾은 경로 리스트를 받아 이동<br>
-          - 플레이어를 인식 후 플레이어 위치를 지속적으로 받아와 매 프레임마다 플레이어 위치로 이동<br>
+          - 플레이어를 인식 후 플레이어 위치를 지속적으로 받아와 매 프레임마다 플레이어 위치로 이동<br>          
+    <img src="Image/path.jpg" width="50%"><br>
+          * AI가 이동 가능한 노드를 표현한 이미지
+    <img src="Image/path3.jpg" width="50%"><br>
+          * AI가 도달점을 찾기 위해 탐색한 노드들
+    <img src="Image/path2.jpg" width="50%"><br>
+          * AI가 이동 동선
           <h6>2. 정지(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI_Stand.java">EnemyAI_Stand.java</a>)</h6><br>
           - 특정 시간동안 정지<br>
         <h5>스프라이트(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemySprite.java">EnemySprite.java</a>)</h5>
