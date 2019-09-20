@@ -118,7 +118,7 @@
     <img src="Image/path.jpg" width="50%"><br>
           * AI가 이동 가능한 노드를 표현한 이미지<br>
     <img src="Image/path3.jpg" width="50%"><br>
-          * AI가 도달점을 찾기 위해 탐색한 노드들ㅍ
+          * AI가 도달점을 찾기 위해 탐색한 노드들<br>
     <img src="Image/path2.jpg" width="50%"><br>
           * AI가 이동 동선<br>
           <h6>2. 정지(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI_Stand.java">EnemyAI_Stand.java</a>)</h6><br>
