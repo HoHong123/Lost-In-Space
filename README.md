@@ -82,7 +82,7 @@
       <li>
         <h4><b>알고리즘</b></h4>
         <ol>
-        <h5>노드(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/Node.java">Node.java</a>\)</h5>
+        <h5>노드(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/Node.java">Node.java</a>)</h5>
           - 각 이동 경로가 되어주는 노드 클래스<br>
           - 이동 가능 여부를 제공<br>
           - f, g, h 값 저장 및 초기화<br>
