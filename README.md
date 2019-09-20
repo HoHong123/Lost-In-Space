@@ -49,10 +49,8 @@
   <br>
   </ol>
   <h2>짧은 영상</h2>
-  - AI이동 영상<br>
-  https://youtu.be/4ufDuvQo19w<br>
-  - 게임 플레이 영상<br>
-  https://youtu.be/_ta-cA5Z6h4<br>
+  - <a href="https://youtu.be/4ufDuvQo19w">AI이동 영상</a><br>
+  - <a href="https://youtu.be/_ta-cA5Z6h4">게임 플레이 영상</a><br>
   </div>
   
   <div><hr width="100%" color = "black">
@@ -84,65 +82,54 @@
       <li>
         <h4><b>알고리즘</b></h4>
         <ol>
-        <h5>노드(Node.java)</h5>
+        <h5>노드(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/Node.java">Node.java</a>\)</h5>
           - 각 이동 경로가 되어주는 노드 클래스<br>
           - 이동 가능 여부를 제공<br>
           - f, g, h 값 저장 및 초기화<br>
           - 부모 노드 저장<br>
-          - 주변 노드와 연결시켜 주는 리스트 저장<br>
-          syntax: [코드로 가기 : Node](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/Node.java)<br>
-           [코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/Node.java)
-        <h5>노드 커넥터(ConnectionNode.java)</h5>
+          - 주변 노드와 연결시켜 주는 리스트 저장<br>          
+        <h5>노드 커넥터(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/ConnectingNode.java">ConnectionNode.java</a>)</h5>
           - 연산이 시작되는 노드와 다음 노드를 연결 시키는 클래스<br>
-          [코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/ConnectingNode.java)
-        <h5>노드 그래프/제너레이터(NodeGraph.java / NodeGraphGenerate.java)</h5>
+        <h5>노드 그래프/제너레이터(
+          <a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/NodeGraph.java">NodeGraph.java</a> / 
+          <a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/NodeGraphGenerate.java">NodeGraphGenerate.java</a>)</h5>
           - 모든 노드의 정보를 가진 그래프 클래스<br>
           - 그래프 클래스를 초기화하는 제너레이터 클래스<br>
           * 그래프는 맵마다 새로 생성되야함(Non-Static 클래스)<br>
           * 제너레이터는 맵이 바뀌어도 연산처리만 하면됨 (Static클래스)<br>
-          [그래프 코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/NodeGraph.java)<br>
-          [제너레이터 코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/NodeGraphGenerate.java)
-        <h5>휴리스틱 클래스(HeuristicCalculation.java)</h5>
+        <h5>휴리스틱 클래스(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/HeuristicCalculation.java">HeuristicCalculation.java</a></h5>
           - 현재 연산이 필요한 노드위치와 도착점의 거리를 계산하여 휴리스틱 값을 반환하는 클래스<br>
-          [코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/HeuristicCalculation.java)
-        <h5>패스파인딩 클래스(PathFinding.java)</h5>
+        <h5>패스파인딩 클래스(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/PathFinding.java">PathFinding.java</a>)</h5>
           - 위 클래스/함수들이 제공하는 값을 활용하여 길을 찾는 클래스<br>
-          - 경로 생성 및 연산 후 남은 객체들 메모리 해제<br>
-          [코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Algorithm/PathFinding.java)
+          - 경로 생성 및 연산 후 남은 객체들 메모리 해제<br>          
         </ol>
         <br>
         <h4><b>에일리언 스크립트</b></h4>
         <ol>
-        <h5>기본 정보(Enemy.java)</h5>
+        <h5>기본 정보(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/Enemy.java">Enemy.java</a>)</h5>
           - AI, 스프라이트, 물리 충돌 등 모든 것을 총괄하고 초기화하는 클래스<br>
-          (https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/Enemy.java)
-        <h5>AI(EnemyAI.java)</h5>
+        <h5>AI(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI.java">EnemyAI.java</a>)</h5>
           - 유한동작기계로 두 AI행동을 번갈아 실행<br>
           - 플레이어 인식 확인<br>
           - 스프라이트 변경 조절<br>
-          <h6>1. 이동(EnemyAI_Run.java)</h6><br>
+          <h6>1. 이동(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI_Run.java">EnemyAI_Run.java</a>)</h6><br>
           - Pathfinding으로 찾은 경로 리스트를 받아 이동<br>
           - 플레이어를 인식 후 플레이어 위치를 지속적으로 받아와 매 프레임마다 플레이어 위치로 이동<br>
-          <h6>2. 정지(EnemyAI_Stand.java)</h6><br>
+          <h6>2. 정지(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI_Stand.java">EnemyAI_Stand.java</a>)</h6><br>
           - 특정 시간동안 정지<br>
-          [기본 정보 코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI.java)
-          [1. 이동 코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI_Run.java)
-          [2. 정지 코드로가기] (https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemyAI_Stand.java)
-        <h5>스프라이트(EnemySprite.java)</h5>
+        <h5>스프라이트(<a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemySprite.java">EnemySprite.java</a>)</h5>
           - 스프라이트 시트 정보 추출 및 이미지 리스트 생성<br>
           - 상황에 따라 특정 애니메이션 실행<br>
-          [코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Enemy/EnemySprite.java)
         </ol>
         <br>
         <h4><b>플레이어 스크립트</b></h4>
         <ol>
-        <h5>Player.java</h5>
+        <h5><a href="https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Player.java">Player.java</a></h5>
           - 스프라이트 시트 정보 추출 및 애니메이션 설정<br>
           - 이동 관련<br>
           - 게임 오버/승리 화면 호출 함수 포함<br>
           - 물리작용을 위한 콜라이더 설정<br>
           - 여러 변수 초기화<br>
-          [코드로가기](https://github.com/HoHong123/Lost-In-Space/blob/master/Src/core/src/com/lsgdx/game/Character/Player.java)
         </ol>
       </li>
     </ol>
